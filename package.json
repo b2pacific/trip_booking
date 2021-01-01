@@ -1,0 +1,19 @@
+{
+  "name": "trip_booking",
+  "version": "1.0.0",
+  "description": "Automic Trip Booking microservice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Prashant Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "redis": "^3.0.2",
+    "s2-geometry": "^1.2.10"
+  }
+}
